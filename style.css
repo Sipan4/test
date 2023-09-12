@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Box{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: green;
+}
+
+.Box>div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+}
